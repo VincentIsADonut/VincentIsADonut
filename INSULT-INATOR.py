@@ -1,9 +1,9 @@
 print("Say hello to my insult-inator!")
-print("What is your name?") 
-name = input()
-print ("What is greater than 1?") 
-number = int(input())
-if number > 1:
-    print("Good job! ", name, ", you are are NOT a donut!", sep="") 
+
+name=input("What is your name?\n")
+number=(input("What comes after 9?\n"))
+
+if number=="◆":
+    print(f"Good job! {name}, you are are NOT a donut!") 
 else: 
-    print("Oh my days! ", name, ", you are are a donut!", sep="") 
+    print(f"You f*cking donut! {name}, it's obviously ◆!") 
